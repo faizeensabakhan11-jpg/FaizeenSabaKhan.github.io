@@ -1,0 +1,134 @@
+{
+  "name": "Faizeen Saba Naz",
+  "title": "AI/ML Engineer / Robotics AI Developer",
+  "subtitles": ["AI/ML Engineer", "Robotics AI Developer", "Research Scholar"],
+  "about": "AI/ML Engineer and M.Tech Computer Science postgraduate with hands-on experience in creating, fine-tuning, evaluating, and deploying machine learning, deep learning, and NLP models. Skilled in Python, PyTorch, Transformer/BERT architectures, transfer learning, data preprocessing, model evaluation, explainable AI, and AI-enabled robotics workflows. Interested in applying AI/ML to medical imaging, Hinglish NLP, forecasting, robotics automation, and intelligent software systems.",
+  "contact": {
+    "email": "faizeensabakhan@gmail.com",
+    "phone": "+91 9354430271",
+    "location": "New Delhi, India",
+    "github": "https://github.com/faizeensaba",
+    "linkedin": "https://linkedin.com/in/faizeensaba",
+    "twitter": "https://twitter.com/faizeensaba"
+  },
+  "education": [
+    {
+      "degree": "M.Tech in Computer Science and Engineering",
+      "institution": "Jamia Hamdard, New Delhi, India",
+      "period": "Aug 2024 - Present",
+      "gpa": "CGPA: 8.19/10"
+    },
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "Jamia Hamdard, New Delhi, India",
+      "period": "2021 - 2024",
+      "gpa": "CGPA: 7.2/10"
+    },
+    {
+      "degree": "Diploma in Computer Engineering",
+      "institution": "Jamia Millia Islamia, New Delhi, India",
+      "period": "2017 - 2020",
+      "gpa": "69.99%"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["Java", "Python", "JavaScript"]
+    },
+    {
+      "category": "AI/ML & NLP",
+      "items": ["Model creation", "Fine-tuning", "Evaluation", "Deployment workflows", "Transformers", "BERT variants", "NLP preprocessing"]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": ["React.js", "Node.js", "Express.js", "Pandas", "NumPy", "PyTorch"]
+    },
+    {
+      "category": "Databases",
+      "items": ["SQL"]
+    },
+    {
+      "category": "Web & Tools",
+      "items": ["HTML", "CSS", "Tailwind CSS", "Material UI", "Git"]
+    },
+    {
+      "category": "Software & Platforms",
+      "items": ["MATLAB"]
+    },
+    {
+      "category": "Academic Skills",
+      "items": ["Machine Learning", "Artificial Intelligence", "Natural Language Processing", "Data Structures", "Database Management System", "Operating Systems"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI/ML Engineer / Robotics AI Developer",
+      "company": "Chilly Robotics Kitchen",
+      "location": "New Delhi, India",
+      "period": "March 2024 - March 2026",
+      "description": [
+        "Created and integrated AI/ML-driven robotics modules using sensor data, preprocessing, and real-time inference workflows to improve responsiveness and decision accuracy.",
+        "Fine-tuned and optimized machine-learning pipelines for robotic system behavior, improving prediction reliability and hardware-software coordination in dynamic environments.",
+        "Deployed AI-assisted automation features into robotics applications, including model evaluation, debugging, and performance monitoring for stable operation.",
+        "Implemented control logic and real-time data processing pipelines to connect robotic hardware with intelligent software systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "alzheimers-mri",
+      "title": "Explainable Alzheimer MRI Classification",
+      "tags": ["Python", "PyTorch", "Transfer Learning", "CNN", "Grad-CAM", "Medical Image Analysis"],
+      "description": "Developed a multiclass Alzheimer's disease classification system from brain MRI images for NonDemented, VeryMildDemented, MildDemented, and ModerateDemented stages.",
+      "details": [
+        "Developed a multiclass Alzheimer's disease classification system from brain MRI images for NonDemented, VeryMildDemented, MildDemented, and ModerateDemented stages.",
+        "Fine-tuned AlexNet, GoogLeNet, MobileNetV2, EfficientNet-B0, and ResNet50 using transfer learning with preprocessing, augmentation, and leakage verification.",
+        "Validated the models on OASIS, Kaggle held-out, and third external MRI datasets to measure cross-dataset robustness and generalization.",
+        "Achieved best results with EfficientNet-B0: 99.34% OASIS accuracy, 96.98% Kaggle held-out accuracy, and 95.60% external dataset accuracy.",
+        "Integrated Grad-CAM and saliency maps to explain model predictions and highlight disease-relevant MRI brain regions."
+      ]
+    },
+    {
+      "id": "hate-speech",
+      "title": "Hinglish Hate Speech Detection",
+      "tags": ["Python", "PyTorch", "NumPy", "Pandas", "Matplotlib", "Transformers", "BERT"],
+      "description": "Developed a Transformer-based hate speech detection system for Hinglish social media text with BERT models.",
+      "details": [
+        "Developed a Transformer-based hate speech detection system for Hinglish social media text.",
+        "Fine-tuned multiple BERT variants including mBERT, XLM-RoBERTa, DistilBERT, and BERT-base.",
+        "Trained and evaluated models on approximately 76,000 labeled samples.",
+        "Achieved approximately 98% accuracy with high F1-score using multilingual BERT.",
+        "Implemented complete NLP pipeline including preprocessing, tokenization, fine-tuning, and evaluation.",
+        "Evaluated performance using accuracy, precision, recall, F1-score, and ROC-AUC."
+      ]
+    },
+    {
+      "id": "equity-forecasting",
+      "title": "Equity Analysis & Stock Forecasting",
+      "tags": ["Python", "PyTorch", "NumPy", "Pandas", "Matplotlib", "FinBERT", "Attention Models"],
+      "description": "Designed and implemented Transformer-based architectures for stock price forecasting using attention mechanisms and financial news sentiment analysis.",
+      "details": [
+        "Designed and implemented Transformer-based architectures for stock price forecasting.",
+        "Integrated OHLCV data, technical indicators, and FinBERT-based sentiment analysis from financial news.",
+        "Achieved Directional Accuracy (DA) of 90.1% and improved risk-adjusted returns.",
+        "Provided interpretable attention visualizations to identify influential market drivers.",
+        "Benchmarked models against existing approaches and demonstrated improved forecasting performance."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Improving Diabetes Diagnosis: A Study on Machine Learning and Model Fine-Tuning",
+      "publisher": "IEEE ICAIIHI-2025, 2nd International Conference on Artificial Intelligence for Innovations in Healthcare Industries",
+      "period": "December 2025",
+      "link": "#"
+    },
+    {
+      "title": "Multilingual BERT-Based Hate Speech Detection in Hinglish Social Media Content Analysis",
+      "publisher": "International Journal of Scientific Research in Engineering and Management (IJSREM), ISSN: 2582-3930",
+      "period": "Published",
+      "link": "https://ijsrem.com"
+    }
+  ]
+}

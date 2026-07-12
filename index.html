@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faizeen Saba Naz | AI/ML Engineer & Robotics Developer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Faizeen Saba Naz, AI/ML Engineer and Robotics Developer specializing in deep learning, NLP, and computer vision.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="dark-mode">
+  <!-- Ambient background glow elements -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-text">FSN</span>
+        <span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle light/dark mode">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+        <button id="admin-toggle" class="btn btn-secondary btn-sm" aria-label="Open Admin Dashboard">
+          <i data-lucide="edit-3"></i>
+          <span>Edit Mode</span>
+        </button>
+        <button class="menu-toggle btn-icon" id="menu-toggle" aria-label="Toggle mobile menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge hero-badge">Welcome to my space</span>
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient" id="hero-name">Faizeen Saba Naz</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            I am a <span id="typewriter" class="typewriter-text"></span><span class="cursor">|</span>
+          </h2>
+          <p class="hero-desc" id="hero-about-preview">
+            AI/ML Engineer and M.Tech Computer Science postgraduate with hands-on experience in creating, fine-tuning, evaluating, and deploying machine learning, deep learning, and NLP models.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="resume.pdf" class="btn btn-secondary" target="_blank" id="resume-btn">
+              <i data-lucide="download"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+          <div class="hero-socials">
+            <a href="#" target="_blank" class="social-link" id="link-github"><i data-lucide="github"></i></a>
+            <a href="#" target="_blank" class="social-link" id="link-linkedin"><i data-lucide="linkedin"></i></a>
+            <a href="#" target="_blank" class="social-link" id="link-twitter"><i data-lucide="twitter"></i></a>
+          </div>
+        </div>
+        <div class="hero-avatar-container">
+          <div class="avatar-glow"></div>
+          <div class="avatar-border">
+            <img src="profile.jpg" alt="Faizeen Saba Naz" class="hero-avatar" id="hero-profile-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">About Me</span>
+          <h2 class="section-title">My Journey & Background</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-info-card card">
+            <h3 class="card-title"><i data-lucide="user" class="text-gradient"></i> Profile Summary</h3>
+            <p class="about-text" id="about-full-text">
+              <!-- Dynamically Loaded -->
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i data-lucide="mail"></i>
+                <span id="contact-email">faizeensabakhan@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i data-lucide="phone"></i>
+                <span id="contact-phone">+91 9354430271</span>
+              </div>
+              <div class="contact-item">
+                <i data-lucide="map-pin"></i>
+                <span id="contact-location">New Delhi, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-card card">
+            <h3 class="card-title"><i data-lucide="graduation-cap" class="text-gradient"></i> Education</h3>
+            <div class="education-list" id="education-container">
+              <!-- Dynamically Loaded -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Experience</span>
+          <h2 class="section-title">Professional Timeline</h2>
+        </div>
+
+        <div class="timeline" id="experience-container">
+          <!-- Dynamically Loaded -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-controls">
+          <div class="search-box">
+            <i data-lucide="search"></i>
+            <input type="text" id="project-search" placeholder="Search by name, tag, or technology...">
+          </div>
+          <div class="filter-group" id="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="pytorch">PyTorch</button>
+            <button class="filter-btn" data-filter="transformers">Transformers</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+          <!-- Dynamically Loaded -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Expertise</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+
+        <div class="skills-grid" id="skills-container">
+          <!-- Dynamically Loaded -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section publications-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Research</span>
+          <h2 class="section-title">Publications & Papers</h2>
+        </div>
+
+        <div class="publications-grid" id="publications-container">
+          <!-- Dynamically Loaded -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card card">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <span class="badge">Connect</span>
+              <h2 class="section-title text-left">Let's work together</h2>
+              <p class="contact-desc">
+                I am interested in AI/ML engineering, medical imaging, NLP research, and robotics automation projects. Reach out if you'd like to collaborate or chat about interesting opportunities.
+              </p>
+              <div class="social-links-large">
+                <a href="mailto:faizeensabakhan@gmail.com" class="social-btn"><i data-lucide="mail"></i> Email Me</a>
+                <a href="#" class="social-btn" id="linkedin-large-btn" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a>
+              </div>
+            </div>
+            <div class="contact-form-container">
+              <form id="portfolio-contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="form-name">Name</label>
+                  <input type="text" id="form-name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Email</label>
+                  <input type="email" id="form-email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-message">Message</label>
+                  <textarea id="form-message" rows="4" placeholder="Hi Faizeen, I would love to talk about..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>Send Message</span>
+                  <i data-lucide="send"></i>
+                </button>
+              </form>
+              <div id="form-success-msg" class="success-message hide">
+                <i data-lucide="check-circle"></i>
+                <span>Thank you! Your message has been saved in local memory (simulated).</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal" id="project-modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content card">
+      <button class="modal-close btn-icon" id="close-modal"><i data-lucide="x"></i></button>
+      <div class="modal-header-info">
+        <h3 id="modal-project-title" class="modal-title">Project Title</h3>
+        <div id="modal-project-tags" class="project-tags"></div>
+      </div>
+      <div class="modal-body">
+        <p id="modal-project-desc" class="modal-desc">Short description goes here.</p>
+        <h4 class="modal-subheading">Key Contributions & Methodology</h4>
+        <ul id="modal-project-details" class="modal-list">
+          <!-- Dynamically Loaded -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Dashboard Modal (Edit Mode) -->
+  <div class="modal admin-modal" id="admin-modal">
+    <div class="modal-overlay"></div>
+    <div class="admin-modal-content card">
+      <div class="admin-header">
+        <div>
+          <h3><i data-lucide="sliders"></i> Portfolio Admin Panel</h3>
+          <p>Add, edit, or delete items. Changes save locally in real-time. Export when done.</p>
+        </div>
+        <div class="admin-actions">
+          <button id="export-json-btn" class="btn btn-primary btn-sm">
+            <i data-lucide="download"></i>
+            <span>Export portfolio-data.json</span>
+          </button>
+          <button id="reset-local-btn" class="btn btn-secondary btn-sm text-danger" title="Restore back to portfolio-data.json defaults">
+            <i data-lucide="refresh-cw"></i>
+            <span>Reset Defaults</span>
+          </button>
+          <button class="btn-icon" id="close-admin"><i data-lucide="x"></i></button>
+        </div>
+      </div>
+      
+      <div class="admin-body">
+        <div class="admin-tabs">
+          <button class="tab-btn active" data-tab="tab-profile">Profile Info</button>
+          <button class="tab-btn" data-tab="tab-skills">Skills</button>
+          <button class="tab-btn" data-tab="tab-experience">Experience</button>
+          <button class="tab-btn" data-tab="tab-projects">Projects</button>
+          <button class="tab-btn" data-tab="tab-education">Education</button>
+          <button class="tab-btn" data-tab="tab-publications">Publications</button>
+        </div>
+
+        <div class="tab-contents">
+          <!-- Tab Profile -->
+          <div class="tab-content active" id="tab-profile">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="admin-name">Full Name</label>
+                <input type="text" id="admin-name">
+              </div>
+              <div class="form-group">
+                <label for="admin-title">Role Title</label>
+                <input type="text" id="admin-title">
+              </div>
+              <div class="form-group colspan-2">
+                <label for="admin-about">About Me Description</label>
+                <textarea id="admin-about" rows="4"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="admin-email">Email Address</label>
+                <input type="email" id="admin-email">
+              </div>
+              <div class="form-group">
+                <label for="admin-phone">Phone Number</label>
+                <input type="text" id="admin-phone">
+              </div>
+              <div class="form-group">
+                <label for="admin-location">Location</label>
+                <input type="text" id="admin-location">
+              </div>
+              <div class="form-group">
+                <label for="admin-github">GitHub Profile URL</label>
+                <input type="text" id="admin-github">
+              </div>
+              <div class="form-group">
+                <label for="admin-linkedin">LinkedIn Profile URL</label>
+                <input type="text" id="admin-linkedin">
+              </div>
+              <div class="form-group">
+                <label for="admin-twitter">Twitter Profile URL</label>
+                <input type="text" id="admin-twitter">
+              </div>
+              <div class="form-group colspan-2">
+                <label>Profile Portrait</label>
+                <p class="help-text">To update your photo, replace <code>profile.jpg</code> in the project folder, or paste a Base64/External image URL below:</p>
+                <input type="text" id="admin-img-url" placeholder="profile.jpg">
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Skills -->
+          <div class="tab-content" id="tab-skills">
+            <div id="admin-skills-list" class="admin-list-group">
+              <!-- Dynamically Loaded -->
+            </div>
+            <button id="add-skill-cat-btn" class="btn btn-secondary mt-3">
+              <i data-lucide="plus"></i> Add Skill Category
+            </button>
+          </div>
+
+          <!-- Tab Experience -->
+          <div class="tab-content" id="tab-experience">
+            <div id="admin-experience-list" class="admin-list-group">
+              <!-- Dynamically Loaded -->
+            </div>
+            <button id="add-exp-btn" class="btn btn-secondary mt-3">
+              <i data-lucide="plus"></i> Add Job Experience
+            </button>
+          </div>
+
+          <!-- Tab Projects -->
+          <div class="tab-content" id="tab-projects">
+            <div id="admin-projects-list" class="admin-list-group">
+              <!-- Dynamically Loaded -->
+            </div>
+            <button id="add-project-btn" class="btn btn-secondary mt-3">
+              <i data-lucide="plus"></i> Add New Project
+            </button>
+          </div>
+
+          <!-- Tab Education -->
+          <div class="tab-content" id="tab-education">
+            <div id="admin-education-list" class="admin-list-group">
+              <!-- Dynamically Loaded -->
+            </div>
+            <button id="add-edu-btn" class="btn btn-secondary mt-3">
+              <i data-lucide="plus"></i> Add Education Degree
+            </button>
+          </div>
+
+          <!-- Tab Publications -->
+          <div class="tab-content" id="tab-publications">
+            <div id="admin-publications-list" class="admin-list-group">
+              <!-- Dynamically Loaded -->
+            </div>
+            <button id="add-pub-btn" class="btn btn-secondary mt-3">
+              <i data-lucide="plus"></i> Add Research Publication
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="admin-footer">
+        <div class="alert-info-box">
+          <i data-lucide="info"></i>
+          <span>Save updates locally to refresh website preview instantly. Export your JSON once finished to make the changes permanent on your GitHub Pages repo.</span>
+        </div>
+        <button id="save-admin-btn" class="btn btn-primary">
+          <i data-lucide="check"></i>
+          <span>Save Changes (Local Refresh)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="copyright">&copy; 2026 Faizeen Saba Naz. All rights reserved. Created for GitHub Pages.</p>
+      <ul class="footer-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
